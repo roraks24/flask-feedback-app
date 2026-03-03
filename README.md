@@ -1,14 +1,12 @@
 # Flask Feedback App
 
-Simple feedback form built with Flask.
+A simple feedback application built using Flask.
 
 ## Features
-- Form handling (GET & POST)
-- Template inheritance (base.html)
-- Dynamic thank you page
-- Basic structure
+• Collect user name and rating  
+• Uses template inheritance (base.html)  
+• Renders thank-you page dynamically
 
-## Run Locally
+## How to Run
 
-pip install -r requirements.txt
-flask run
+1. Install dependencies:
