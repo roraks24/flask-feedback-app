@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}Feedback form{% endblock %}</title>
+    <style>
+        
+        header{color: rgb(255, 255, 255); 
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        footer{color: rgb(255, 255, 255); 
+            background-color: rgb(0, 0, 0); 
+            padding: 10px; 
+            bottom: 0; 
+            width: 100%; 
+            position: absolute;
+            display: flex;
+            justify-content: center;
+        }
+        
+        body{color: rgb(0, 0, 0); 
+            background-color: rgb(255, 255, 255); 
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Feedback Page</h1>
+</header>
+     {% block content %}
+     {% endblock %}
+    <footer>@2025 rorakcorp</footer>
+</body>
+</html>
